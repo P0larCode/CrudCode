@@ -29,13 +29,11 @@
         </div>
     </div>
 
-
-
-
     
     <hr>
 
     <h2>Listado de personas</h2>
+    
     <div class="row">
       <div class="col-sm-12">
         <div class="table table-responsive">

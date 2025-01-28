@@ -1,12 +1,20 @@
-<?php
+<?php namespace App\Controllers;
 
-namespace App\Controllers;
+use App\Models\CrudModel;
+
 
 class Crud extends BaseController
 {
-    public function index(): string
+    public function index()
     {
-        return view('listado');
+        $Crud = new CrudModel();
+        $datos = $Crud -> listarNombres();
+
+        $data = [
+                    "datos" -> $datos
+                ];
+
+        return view('listado', $data);
     }
 
 
