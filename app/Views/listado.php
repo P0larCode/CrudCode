@@ -10,7 +10,7 @@
   
 
   <div class="container">
-    <h1>Crud con Codeigniter 4</h1>
+    <h1>Hola Mundo</h1>
     <div class="row">
         <div class="col-sm-12">
             <for m method = "POST" action ="<?php echo base_url().'/crear/' ?>">
